@@ -18,6 +18,26 @@ body{
 	background:lightgrey;
 }
 
+form{
+	font-size:16px;
+	color:black;
+	padding-left:20px;
+}
+
+textarea{
+	color:black;
+	font-size:16px;
+	margin-left:20px;
+}
+
+.navi a:hover {
+	color:darkgrey;
+}
+
+.icons img:hover{
+	box-shadow: 10px 10px 5px #888888;;
+}
+
 .hr_head{
 	border:grey solid 1px;
 	margin-top:0px;
@@ -30,11 +50,21 @@ body{
 	background-color:darkgrey;
 	letter-spacing: 5px;
 	padding-top:40px;
+	margin-right:0px;
+}
+
+.maintxt{
+	margin-right:0px;
 }
 
 .head{
 	background:white;
 	height:100px;
+	margin-right:0px;
+}
+
+.headtainer{
+	padding:0px;
 }
 
 .javi{
@@ -44,7 +74,6 @@ body{
 	font-size:24px;
 	color:white;
 }
-
 .about{
 	text-align:left;
 	background:white;
@@ -98,11 +127,17 @@ body{
 
 .navi a{
 	color:lightgrey;
+	text-decoration:none;
 }
 
 .foot{
 	border:#4aaaa5 solid 5px;
 	margin-bottom:0px;
+}
+
+.portfo{
+	padding-left:50px;
+	padding-right:0px;
 }
 
 .clearfix:after {
@@ -113,11 +148,33 @@ body{
    clear: both;
 }
 
+@media screen and (max-width: 1265px) {
+		
+	.p_img{
+		height:200px;
+		width:200px;
+	}
+
+}
+
 @media screen and (max-width: 1100px) {
 		
 	.icons img{
 		height:45px;
 		width:45px;
+	}
+
+}
+
+@media screen and (max-width: 1085px) {
+
+	.p_img{
+		height:300px;
+		width:300px;
+	}
+
+	.portfo{
+		padding-left:80px;
 	}
 
 }
@@ -133,6 +190,65 @@ body{
 		padding-top:5px;
 		height:30px;
 		background:white;
+	}
+
+	form{
+		padding-left:200px;
+	}
+
+	textarea{
+		margin-left:200px;
+	}
+
+}
+
+@media screen and (max-width: 775px) {
+
+	.p_img{
+		height:500px;
+		width:500px;
+	}
+
+	.portfo{
+		height:2600px;
+	}
+
+}
+
+@media screen and (max-width:670px){
+
+	form{
+		padding-left:100px;
+	}
+
+	textarea{
+		margin-left:100px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.p_img{
+		height:300px;
+		width:300px;
+	}
+
+}
+
+@media screen and (max-width:560px){
+
+	form{
+		padding-left:50px;
+	}
+
+	input{
+		width:250px;
+	}
+
+	textarea{
+		margin-left:50px;
+		width:250px;
 	}
 
 }
