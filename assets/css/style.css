@@ -65,10 +65,11 @@ textarea{
 
 .headtainer{
 	padding:0px;
+	background-color: black;
 }
 
 .javi{
-	background:#4aaaa5;
+	background:#008080;
 	padding-top:30px;
 	height:100px;
 	font-size:24px;
@@ -87,12 +88,17 @@ textarea{
 	font-weight:bold;
 	font-family:serif;
 	height:auto;
-	color:#4aaaa5;
+	color:#008080;
 }
 
 .about p{
 	font-size:16px;
-	color:grey;
+	color:black;
+}
+
+.about p strong{
+	font-size:24px;
+	color:black;
 }
 
 .icons{
@@ -105,7 +111,7 @@ textarea{
 	height:200px;
 	padding:20px 30px;
 	background:white;
-	color:#4aaaa5;
+	color:#008080;
 	font-weight:bolder;
 	font-family:serif;
 	font-size:24px;
@@ -131,13 +137,17 @@ textarea{
 }
 
 .foot{
-	border:#4aaaa5 solid 5px;
+	border:#008080 solid 5px;
 	margin-bottom:0px;
 }
 
 .portfo{
 	padding-left:50px;
 	padding-right:0px;
+}
+
+.portfo img:hover{
+	border:black dotted 4px;
 }
 
 .clearfix:after {
@@ -190,6 +200,10 @@ textarea{
 		padding-top:5px;
 		height:30px;
 		background:white;
+	}
+
+	.javi{
+		background-color: black;
 	}
 
 	form{
